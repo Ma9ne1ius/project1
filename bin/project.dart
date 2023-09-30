@@ -19,7 +19,7 @@ void main() async {
 
 int sum(List<int> L) {
   int result = 0;
-  for (int i in stocks) {
+  for (int i in L) {
     result += i;
   }
   return result;
